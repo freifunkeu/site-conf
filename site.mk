@@ -75,3 +75,6 @@ GLUON_REGION ?= eu
 
 # Languages to include
 GLUON_LANGS ?= en de
+
+GLUON_DEPRECATED := 0
+
