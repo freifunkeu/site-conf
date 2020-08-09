@@ -35,7 +35,6 @@ GLUON_SITE_PACKAGES := \
         gluon-ebtables-filter-multicast \
         gluon-ebtables-limit-arp \
 	gluon-ebtables-filter-ra-dhcp \
-	gluon-ebtables-source-filter \
         gluon-radv-filterd \
         respondd-module-airtime \
         gluon-web-admin \
