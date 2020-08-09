@@ -34,6 +34,8 @@ GLUON_SITE_PACKAGES := \
         gluon-config-mode-core \
         gluon-ebtables-filter-multicast \
         gluon-ebtables-limit-arp \
+	gluon-ebtables-filter-ra-dhcp \
+	gluon-ebtables-source-filter \
         gluon-radv-filterd \
         respondd-module-airtime \
         gluon-web-admin \
@@ -54,7 +56,7 @@ GLUON_SITE_PACKAGES := \
 #			opkg compare-versions "$1" '>>' "$2"
 #		to decide if a version is newer or not.
 
-DEFAULT_GLUON_RELEASE := fastd-2020.1.3-3.0.0+exp$(shell date '+%Y%m%d')
+DEFAULT_GLUON_RELEASE := fastd-2020.2-3.1.2+exp$(shell date '+%Y%m%d')
 
 # Variables set with ?= can be overwritten from the command line
 
