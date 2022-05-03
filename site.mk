@@ -43,7 +43,7 @@ GLUON_SITE_PACKAGES := \
         gluon-web-network \
         gluon-status-page \
         haveged \
-        iptables \
+#        iptables \
         iwinfo \
         gluon-web-private-wifi \
         gluon-config-mode-mesh-vpn \
