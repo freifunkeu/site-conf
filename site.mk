@@ -5,7 +5,8 @@
 #		Gluon will automatically enable a set of packages
 #		depending on the combination of features listed
 
-## GLUON_FEATURES := \
+#GLUON_FEATURES := \
+#	mesh-vpn-fastd-l2tp
 #	autoupdater \
 #	ebtables-filter-multicast \
 #	ebtables-filter-ra-dhcp \
@@ -25,6 +26,7 @@
 
 GLUON_SITE_PACKAGES := \
         gluon-mesh-batman-adv-15 \
+	gluon-mesh-vpn-fastd-l2tp \
         gluon-respondd \
         gluon-autoupdater \
         gluon-config-mode-autoupdater \
