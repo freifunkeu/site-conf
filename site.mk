@@ -5,7 +5,8 @@
 #		Gluon will automatically enable a set of packages
 #		depending on the combination of features listed
 
-## GLUON_FEATURES := \
+#GLUON_FEATURES := \
+#	mesh-vpn-fastd-l2tp
 #	autoupdater \
 #	ebtables-filter-multicast \
 #	ebtables-filter-ra-dhcp \
@@ -23,30 +24,31 @@
 #		selection that would be enabled by default or due to the
 #		chosen feature flags
 
-GLUON_SITE_PACKAGES := \
-        gluon-mesh-batman-adv-15 \
-        gluon-respondd \
-        gluon-autoupdater \
-        gluon-config-mode-autoupdater \
-        gluon-config-mode-contact-info \
-        gluon-config-mode-geo-location \
-        gluon-config-mode-hostname \
-        gluon-config-mode-core \
-        gluon-ebtables-filter-multicast \
-        gluon-ebtables-limit-arp \
-	gluon-ebtables-filter-ra-dhcp \
-        gluon-radv-filterd \
-        respondd-module-airtime \
-        gluon-web-admin \
-        gluon-web-autoupdater \
-        gluon-web-wifi-config \
-        gluon-web-network \
-        gluon-status-page \
-        haveged \
-        iwinfo \
-        gluon-web-private-wifi \
-        gluon-config-mode-mesh-vpn \
-        gluon-mesh-vpn-fastd
+#GLUON_SITE_PACKAGES := \
+#        gluon-mesh-batman-adv-15 \
+#	gluon-mesh-vpn-fastd-l2tp \
+#        gluon-respondd \
+#        gluon-autoupdater \
+#        gluon-config-mode-autoupdater \
+#        gluon-config-mode-contact-info \
+#        gluon-config-mode-geo-location \
+#        gluon-config-mode-hostname \
+#        gluon-config-mode-core \
+#        gluon-ebtables-filter-multicast \
+#        gluon-ebtables-limit-arp \
+#	gluon-ebtables-filter-ra-dhcp \
+#        gluon-radv-filterd \
+#        respondd-module-airtime \
+#        gluon-web-admin \
+#        gluon-web-autoupdater \
+#        gluon-web-wifi-config \
+#        gluon-web-network \
+#        gluon-status-page \
+#        haveged \
+#        iwinfo \
+#        gluon-web-private-wifi \
+#        gluon-config-mode-mesh-vpn \
+#        gluon-mesh-vpn-fastd
 
 ##	DEFAULT_GLUON_RELEASE
 #		version string to use for images
