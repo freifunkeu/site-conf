@@ -11,6 +11,7 @@ features({
 	'web-advanced',
   	'web-private-wifi',
 	'web-wizard',
+	'config-mode-domain-select',
 })
 
 packages({
