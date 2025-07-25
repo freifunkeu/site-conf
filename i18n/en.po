@@ -53,3 +53,12 @@ msgid "gluon-config-mode:altitude-help"
 msgstr ""
 "Specifying the altitude is optional and should only be done if a proper "
 "value is known."
+
+msgid "gluon-config-mode:domain"
+msgstr "Domain"
+
+msgid "gluon-config-mode:domain-select"
+msgstr ""
+"Here you have the possibility of selecting the mesh domain in which your node "
+"is placed. Please keep in mind that your router only connects with the nodes "
+"of the selected domain."

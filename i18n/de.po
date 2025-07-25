@@ -45,3 +45,12 @@ msgid "gluon-config-mode:altitude-help"
 msgstr ""
 "Die Höhenangabe ist optional und sollte nur gesetzt werden, wenn ein "
 "exakter Wert bekannt ist."
+
+msgid "gluon-config-mode:domain"
+msgstr "Domäne"
+
+msgid "gluon-config-mode:domain-select"
+msgstr ""
+"Hier hast du die Möglichkeit, die Mesh-Domäne, in der sich dein Knoten "
+"befindet, auszuwählen. Bitte denke daran, dass sich dein Knoten nur mit den "
+"Knoten der ausgewählten Domäne verbinden kann."
