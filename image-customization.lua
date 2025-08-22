@@ -5,7 +5,6 @@ features({
 	'ebtables-filter-ra-dhcp',
 	'mesh-batman-adv-15',
 	'mesh-vpn-fastd-l2tp',
-  	'radv-filterd',
 	'respondd',
 	'status-page',
 	'web-advanced',
